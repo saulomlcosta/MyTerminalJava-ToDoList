@@ -54,8 +54,8 @@ public class TodoList {
                     case "2":
                          int i;
 
-                    // Mostrando os "n" contatos da agenda (usando o índice)
-                    // número de elementos da agenda: método size()
+                    // Mostrando as "n" tarefas (usando o índice)
+                    // número de elementos do ArrayList: método size()
                     System.out.printf("Verificando as tarefas pendentes...\n");
                     int n = toDo.size();
                     for (i=0; i<n; i++) {
